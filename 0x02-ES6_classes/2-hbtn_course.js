@@ -1,11 +1,11 @@
 class HolbertonCourse {
   constructor(name, length, students) {
-  this.name = name;
-  this.length = length;
-  this.students = students;
+    this.name = name;
+    this.length = length;
+    this.students = students;
   }
 
-  // Gets and sets name for the course 
+  // Gets and sets name for the course
   get name() {
     return this._name;
   }
