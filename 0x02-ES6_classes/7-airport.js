@@ -19,7 +19,7 @@ class Airport {
   }
 
   set code(newCode) {
-  this._code = newCode;
+    this._code = newCode;
   }
 
   // Getting default str description for Airport and return code
