@@ -23,7 +23,7 @@ class HolbertonCourse {
   }
 
   set length(newLength) {
-    if (typrof newLength !== 'number') {
+    if (typeof newLength !== 'number') {
       throw new TypeError('Length must be a number');
     }
     this._length = newLength;
@@ -34,7 +34,7 @@ class HolbertonCourse {
     return this._students;
   }
 
-  set tudents(newStudents) {
+  set students(newStudents) {
     if (!(newStudents instanceof Array)) {
       throw new TypeError('Students must be an array of strings');
     }
