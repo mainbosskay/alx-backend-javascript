@@ -1,4 +1,4 @@
-function cleanSet(set,startString) {
+function cleanSet(set, startString) {
   const respParts = [];
   if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
     return '';
