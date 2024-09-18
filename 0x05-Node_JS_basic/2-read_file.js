@@ -11,7 +11,7 @@ function countStudents(dbPath) {
   const lines = dbContent.toString().split('\n');
   const studentRecords = lines.filter((item) => item);
   const students = studentRecords.map((item) => item.split(','));
-  const totalStudents = students.length ? students.length -1 : 0;
+  const totalStudents = students.length ? students.length - 1 : 0;
   console.log(`Number of students: ${totalStudents}`);
 
   const studentsField = {};
