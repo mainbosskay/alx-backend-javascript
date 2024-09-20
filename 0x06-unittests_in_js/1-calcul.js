@@ -7,7 +7,7 @@ const calculateNumber = (type, a, b) => {
   }
 
   if (type == 'SUBTRACT') {
-    return firstNum = scndNum;
+    return firstNum - scndNum;
   }
 
   if (type == 'DIVIDE') {
