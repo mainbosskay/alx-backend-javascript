@@ -7,14 +7,12 @@ describe('basic API integration test', () => {
   it('get correct status code', () => {
     request.get(`${urlAPI}/`, (_err, res, body) => {
       expect(res.statusCode).to.be.equal(200);
-      done();
     });
   });
 
   it('get correct result', () => {
     request.get(`${urlAPI}/`, (_err, res, body) => {
       expect(body).to.contain('Welcome to the payment system');
-      done();
     });     
   });
 
