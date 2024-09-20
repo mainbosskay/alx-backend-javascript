@@ -52,7 +52,7 @@ describe('calculateNumber', () => {
     });
 
     it('sum two positive float numbers (alternate)', () => {
-      assert.strictEqual(calculateNumber('SUM', 2.5, 3.6), 6);
+      assert.strictEqual(calculateNumber('SUM', 2.5, 2.4), 5);
     });
 
     it('sum two negative float numbers (alternate)', () => {
@@ -192,7 +192,7 @@ describe('calculateNumber', () => {
     });
 
     it('divide two positive float numbers (alternate)', () => {
-      assert.strictEqual(calculateNumber('DIVIDE', 4.2, 2.9), 1);
+      assert.strictEqual(calculateNumber('DIVIDE', 3.3, 2.8), 1);
     });
 
     it('divide two negative float numbers (alternate)', () => {
